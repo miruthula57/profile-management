@@ -2,7 +2,7 @@
   "name": "profile-management",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://github.com/miruthula57/profile-management/",
+  "homepage":".",
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
