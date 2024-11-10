@@ -16,7 +16,7 @@ import {
   Tooltip,
   Typography
 } from "@mui/material";
-import { useMemo, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import ButtonComponent from "../../components/Button/ButtonComponent";
 import DialogComponent from "../../components/Dialog/DialogComponent";
@@ -51,11 +51,11 @@ const ProfileList = () => {
     navigate("/profile-form");
   };
 
-  const handleEdit = (id: string) => {
+  const handleEdit = useCallback((id: string) => {
     navigate("/profile-form", {
       state: { updatedValues: id },
     });
-  };
+  }, [navigate]);
 
   const profileRows = useMemo(() => {
     return profiles.length === 0 ? (
@@ -99,7 +99,7 @@ const ProfileList = () => {
         </TableRow>
       ))
     );
-  }, [profiles]);
+  }, [profiles,handleEdit]);
 
   return (
     <>

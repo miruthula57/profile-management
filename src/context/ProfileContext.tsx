@@ -39,7 +39,7 @@ export const ProfileProvider: React.FC<ProfileProviderProps> = ({ children }) =>
   const createNewProfile = async (data: Profile) => {
     try {
       setApiStatus({ loading: true, error: null });
-      const response = await createProfile(data);
+      await createProfile(data);
       await getProfilesList();
       setApiStatus({ loading: false, error: null });
       toast.success("Profile created successfully");
