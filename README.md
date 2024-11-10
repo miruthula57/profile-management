@@ -1,6 +1,42 @@
 Profile Management Application
 This Profile Management Application allows users to create, view, update, and delete profile details. The app is built with React, TypeScript, and React Router, and includes form validation, API integration, lazy loading, reusable components, and error handling.
 
+## Table of Contents
+
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Running the Project](#running-the-project)
+  - [Starting the React App](#starting-the-react-app)
+  - [Starting the JSON Server](#starting-the-json-server)
+- [Available Scripts](#available-scripts)
+- [API Routes](#api-routes)
+
+## Requirements
+
+Before you start, make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (version 14 or higher recommended)
+- [npm](https://www.npmjs.com/) (comes with Node.js) or [yarn](https://yarnpkg.com/)
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/miruthula57/profile-management.git
+   cd your-repo-name
+
+2. npm i
+
+## Running the Project
+
+### Starting the JSON Server
+1. npm install -g json-server
+2. json-server --watch db.json --port 5000
+
+### Starting the React App
+1. npm start
+
 Features
 Reusable Components: Modular components built with Formik, Yup, and Material UI, including:
 Form fields (text, number, date) with validation and error messages.
