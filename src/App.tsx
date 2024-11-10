@@ -32,11 +32,11 @@ function App() {
           <Navbar />
           <Suspense fallback={<div>Loading...</div>}>
             <Routes>
-              <Route path="/" element={<Navigate to="/profile-management/profile" replace />} />
-              <Route path="/profile-management/profile" element={<ProfileList />} />
-              <Route path="/profile-management/profile-form" element={<AddEditProfileForm />} />
-              <Route path="/profile-management/404" element={<NoDataFound />} />
-              <Route path="*" element={<Navigate to="/profile-management/404" replace />} />
+              <Route path="/" element={<Navigate to="/profile" replace />} />
+              <Route path="/profile" element={<ProfileList />} />
+              <Route path="/profile-form" element={<AddEditProfileForm />} />
+              <Route path="/404" element={<NoDataFound />} />
+              <Route path="*" element={<Navigate to="/404" replace />} />
             </Routes>
           </Suspense>
         </HashRouter>

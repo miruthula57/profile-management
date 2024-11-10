@@ -65,11 +65,11 @@ const AddEditProfileForm = () => {
   }, [updatedValues, profiles]);
 
   const handleNavigateBack = () => {
-    navigate("/profile-management/profile");
+    navigate("/profile");
   };
 
   const handleClose = () => {
-    navigate("/profile-management/profile");
+    navigate("/profile");
   };
 
   const handleSubmit = async (values: any) => {
@@ -87,7 +87,7 @@ const AddEditProfileForm = () => {
       }
       await createNewProfile(values);
     }
-    navigate("/profile-management/profile");
+    navigate("/profile");
   };
 
   return (
