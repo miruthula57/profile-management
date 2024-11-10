@@ -32,6 +32,7 @@ function App() {
           <Navbar />
           <Suspense fallback={<div>Loading...</div>}>
             <Routes>
+              <Route path="/" element={<Navigate to="/profile" replace />} />
               <Route path="/profile" element={<ProfileList />} />
               <Route path="/profile-form" element={<AddEditProfileForm />} />
               <Route path="/404" element={<NoDataFound />} />
