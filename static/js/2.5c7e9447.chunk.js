@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkprofile_management=self.webpackChunkprofile_management||[]).push([[2],{3001:(e,a,n)=>{n.r(a),n.d(a,{default:()=>d});const t=n.p+"static/media/nodata.eec575dd137c52d7d1b4.png";var c=n(579);const d=()=>(0,c.jsx)(c.Fragment,{children:(0,c.jsx)("img",{src:t,alt:"NoDataFoundIconImg",width:250})})}}]);
+//# sourceMappingURL=2.5c7e9447.chunk.js.map
