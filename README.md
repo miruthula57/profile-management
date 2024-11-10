@@ -8,8 +8,6 @@ This Profile Management Application allows users to create, view, update, and de
 - [Running the Project](#running-the-project)
   - [Starting the React App](#starting-the-react-app)
   - [Starting the JSON Server](#starting-the-json-server)
-- [Available Scripts](#available-scripts)
-- [API Routes](#api-routes)
 
 ## Requirements
 
@@ -37,7 +35,7 @@ Before you start, make sure you have the following installed:
 ### Starting the React App
 1. npm start
 
-Features
+## Features
 Reusable Components: Modular components built with Formik, Yup, and Material UI, including:
 Form fields (text, number, date) with validation and error messages.
 Buttons and Dialog boxes for consistent UI across the app.
@@ -49,7 +47,7 @@ Global State Management: Utilizes Context API to manage profile data and API sta
 Environment Variables: API URL and configuration managed via .env file for dev/prod environments.
 
 
-Application Walkthrough
+## Application Walkthrough
 1. Profile List Page (/profile)
 Displays a list of profiles with options to add, edit, and delete each entry.
 Delete Confirmation: Clicking "Delete" shows a confirmation dialog before deleting.
