@@ -1,9 +1,9 @@
 {
   "profiles": [
     {
-      "firstName": "Jhon",
+      "firstName": "John",
       "lastName": "Doe",
-      "email": "jhondoe@gmail.com",
+      "email": "johndoe@gmail.com",
       "contactNumber": 1234567890,
       "dob": "08/01/2000",
       "age": 25,
