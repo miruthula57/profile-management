@@ -48,11 +48,11 @@ const ProfileList = () => {
   };
 
   const handleClick = () => {
-    navigate("/profile-form");
+    navigate("/profile-management/profile-form");
   };
 
   const handleEdit = useCallback((id: string) => {
-    navigate("/profile-form", {
+    navigate("/profile-management/profile-form", {
       state: { updatedValues: id },
     });
   }, [navigate]);
